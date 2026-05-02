@@ -1,0 +1,14 @@
+Loading data...
+Merging data...
+Aggregating to customer level...
+Latest order date in dataset: 2018-10-17 17:30:18
+Numerical columns: ['recency', 'frequency', 'monetary', 'avg_monetary', 'avg_items_per_order', 'avg_freight_per_order', 'avg_installments', 'avg_review_score', 'pct_orders_with_review']
+Categorical columns: ['customer_state', 'customer_city']
+Filled missing avg_monetary with median: 105.29
+Filled missing avg_items_per_order with median: 1.0
+Filled missing avg_freight_per_order with median: 17.17
+Filled missing avg_installments with median: 2.0
+Filled missing avg_review_score with median: 5.0
+WARNING: X contains non-finite values (NaN or inf). Replacing with 0.
+Feature matrix shape: (99441, 35)
+Running KMeans for k=2 to 6...

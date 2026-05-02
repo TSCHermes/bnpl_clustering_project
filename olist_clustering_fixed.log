@@ -1,0 +1,6 @@
+Traceback (most recent call last):
+  File "/hermes_workspace/Olist_e_commerce_project/olist_clustering_fixed.py", line 2, in <module>
+    import numpy as np
+  File "/hermes_workspace/Olist_e_commerce_project/.venv/lib/python3.13/site-packages/numpy/__init__.py", line 109, in <module>
+    from . import _distributor_init
+ImportError: cannot import name '_distributor_init' from partially initialized module 'numpy' (most likely due to a circular import) (/hermes_workspace/Olist_e_commerce_project/.venv/lib/python3.13/site-packages/numpy/__init__.py)

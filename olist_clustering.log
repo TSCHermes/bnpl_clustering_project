@@ -1,0 +1,4 @@
+Traceback (most recent call last):
+  File "/hermes_workspace/Olist_e_commerce_project/olist_clustering.py", line 8, in <module>
+    from sklearn.preprocessing import StandardScaler
+ModuleNotFoundError: No module named 'sklearn.preprocessing'

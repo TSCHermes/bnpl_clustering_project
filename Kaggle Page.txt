@@ -1,0 +1,514 @@
+Brazilian E-Commerce Public Dataset by Olist
+100,000 Orders with product, customer and reviews info
+
+Brazilian E-Commerce Public Dataset by Olist
+
+Code
+
+Download
+
+About Dataset
+Brazilian E-Commerce Public Dataset by Olist
+Welcome! This is a Brazilian ecommerce public dataset of orders made at Olist Store. The dataset has information of 100k orders from 2016 to 2018 made at multiple marketplaces in Brazil. Its features allows viewing an order from multiple dimensions: from order status, price, payment and freight performance to customer location, product attributes and finally reviews written by customers. We also released a geolocation dataset that relates Brazilian zip codes to lat/lng coordinates.
+
+This is real commercial data, it has been anonymised, and references to the companies and partners in the review text have been replaced with the names of Game of Thrones great houses.
+
+Join it With the Marketing Funnel by Olist
+We have also released a Marketing Funnel Dataset. You may join both datasets and see an order from Marketing perspective now!
+
+Instructions on joining are available on this Kernel.
+
+Context
+This dataset was generously provided by Olist, the largest department store in Brazilian marketplaces. Olist connects small businesses from all over Brazil to channels without hassle and with a single contract. Those merchants are able to sell their products through the Olist Store and ship them directly to the customers using Olist logistics partners. See more on our website: www.olist.com
+
+After a customer purchases the product from Olist Store a seller gets notified to fulfill that order. Once the customer receives the product, or the estimated delivery date is due, the customer gets a satisfaction survey by email where he can give a note for the purchase experience and write down some comments.
+
+Attention
+An order might have multiple items.
+Each item might be fulfilled by a distinct seller.
+All text identifying stores and partners where replaced by the names of Game of Thrones great houses.
+Example of a product listing on a marketplace
+Example of a product listing on a marketplace
+
+Data Schema
+The data is divided in multiple datasets for better understanding and organization. Please refer to the following data schema when working with it:
+Data Schema
+
+Classified Dataset
+We had previously released a classified dataset, but we removed it at Version 6. We intend to release it again as a new dataset with a new data schema. While we don't finish it, you may use the classified dataset available at the Version 5 or previous.
+
+Inspiration
+Here are some inspiration for possible outcomes from this dataset.
+
+NLP:
+
+This dataset offers a supreme environment to parse out the reviews text through its multiple dimensions.
+
+Clustering:
+
+Some customers didn't write a review. But why are they happy or mad?
+
+Sales Prediction:
+
+With purchase date information you'll be able to predict future sales.
+
+Delivery Performance:
+
+You will also be able to work through delivery performance and find ways to optimize delivery times.
+
+Product Quality:
+
+Enjoy yourself discovering the products categories that are more prone to customer insatisfaction.
+
+Feature Engineering:
+
+Create features from this rich dataset or attach some external public information to it.
+
+Acknowledgements
+Thanks to Olist for releasing this dataset.
+
+
+View less
+Usability
+10.00
+
+License
+CC BY-NC-SA 4.0
+
+Expected update frequency
+Never
+
+Tags
+Business
+Data Visualization
+Exploratory Data Analysis
+NLP
+Multiclass Classification
+Brazil
+olist_customers_dataset.csv(9.03 MB)
+
+5 of 5 columns
+
+About this file
+
+Suggest Edits
+Customers Dataset
+This dataset has information about the customer and its location. Use it to identify unique customers in the orders dataset and to find the orders delivery location.
+
+At our system each order is assigned to a unique customer_id. This means that the same customer will get different ids for different orders. The purpose of having a customer_unique_id on the dataset is to allow you to identify customers that made repurchases at the store. Otherwise you would find that each order had a different customer associated with.
+
+Please refer to the data schema:
+Data Schema
+
+
+customer_id
+key to the orders dataset. Each order has a unique customer_id.
+
+
+customer_unique_id
+unique identifier of a customer.
+
+
+customer_zip_code_prefix
+first five digits of customer zip code
+
+
+customer_city
+customer city name
+
+
+customer_state
+customer state
+
+99441
+
+unique values
+96096
+
+unique values
+Label	Count
+1003.00 - 5952.35	14,309
+5952.35 - 10901.70	9,686
+10901.70 - 15851.05	13,402
+15851.05 - 20800.40	5,889
+20800.40 - 25749.75	7,649
+25749.75 - 30699.10	7,128
+30699.10 - 35648.45	3,978
+35648.45 - 40597.80	6,670
+40597.80 - 45547.15	1,723
+45547.15 - 50496.50	1,611
+50496.50 - 55445.85	1,146
+55445.85 - 60395.20	2,190
+60395.20 - 65344.55	1,982
+65344.55 - 70293.90	1,699
+70293.90 - 75243.25	3,260
+75243.25 - 80192.60	3,145
+80192.60 - 85141.95	2,536
+85141.95 - 90091.30	6,163
+90091.30 - 95040.65	2,282
+95040.65 - 99990.00	2,993
+Label	Count
+1003.00 - 5952.35	14,309
+5952.35 - 10901.70	9,686
+10901.70 - 15851.05	13,402
+15851.05 - 20800.40	5,889
+20800.40 - 25749.75	7,649
+25749.75 - 30699.10	7,128
+30699.10 - 35648.45	3,978
+35648.45 - 40597.80	6,670
+40597.80 - 45547.15	1,723
+45547.15 - 50496.50	1,611
+50496.50 - 55445.85	1,146
+55445.85 - 60395.20	2,190
+60395.20 - 65344.55	1,982
+65344.55 - 70293.90	1,699
+70293.90 - 75243.25	3,260
+75243.25 - 80192.60	3,145
+80192.60 - 85141.95	2,536
+85141.95 - 90091.30	6,163
+90091.30 - 95040.65	2,282
+95040.65 - 99990.00	2,993
+1003
+100.0k
+sao paulo
+16%
+rio de janeiro
+7%
+Other (77019)
+77%
+SP
+42%
+RJ
+13%
+Other (44843)
+45%
+06b8999e2fba1a1fbc88172c00ba8bc7
+861eff4711a542e4b93843c6dd7febb0
+14409
+franca
+SP
+18955e83d337fd6b2def6b18a428ac77
+290c77bc529b7ac935b93aa66c333dc3
+09790
+sao bernardo do campo
+SP
+4e7b3e00288586ebd08712fdd0374a03
+060e732b5b29e8181a18229c7b0b2b5e
+01151
+sao paulo
+SP
+b2b6027bc5c5109e529d4dc6358b12c3
+259dac757896d24d7702b9acbbff3f3c
+08775
+mogi das cruzes
+SP
+4f2d8ab171c80ec8364f7c12e35b23ad
+345ecd01c38d18a9036ed96c73b8d066
+13056
+campinas
+SP
+879864dab9bc3047522c92c82e1212b8
+4c93744516667ad3b8f1fb645a3116a4
+89254
+jaragua do sul
+SC
+fd826e7cf63160e536e0908c76c3f441
+addec96d2e059c80c30fe6871d30d177
+04534
+sao paulo
+SP
+5e274e7a0c3809e14aba7ad5aae0d407
+57b2a98a409812fe9618067b6b8ebe4f
+35182
+timoteo
+MG
+5adf08e34b2e993982a47070956c5c65
+1175e95fb47ddff9de6b2b06188f7e0d
+81560
+curitiba
+PR
+4b7139f34592b3a31687243a302fa75b
+9afe194fb833f79e300e37e580171f22
+30575
+belo horizonte
+MG
+9fb35e4ed6f0a14a4977cd9aea4042bb
+2a7745e1ed516b289ed9b29c7d0539a5
+39400
+montes claros
+MG
+5aa9e4fdd4dfd20959cad2d772509598
+2a46fb94aef5cbeeb850418118cee090
+20231
+rio de janeiro
+RJ
+b2d1536598b73a9abd18e0d75d92f0a3
+918dc87cd72cd9f6ed4bd442ed785235
+18682
+lencois paulista
+SP
+eabebad39a88bb6f5b52376faec28612
+295c05e81917928d76245e842748184d
+05704
+sao paulo
+SP
+1f1c7bf1c9b041b292af6c1c4470b753
+3151a81801c8386361b62277d7fa5ecf
+95110
+caxias do sul
+RS
+206f3129c0e4d7d0b9550426023f0a08
+21f748a16f4e1688a9014eb3ee6fa325
+13412
+piracicaba
+SP
+a7c125a0a07b75146167b7f04a7f8e98
+5c2991dbd08bbf3cf410713c4de5a0b5
+22750
+rio de janeiro
+RJ
+c5c61596a3b6bd0cee5766992c48a9a1
+b6e99561fe6f34a55b0b7da92f8ed775
+07124
+guarulhos
+SP
+9b8ce803689b3562defaad4613ef426f
+7f3a72e8f988c6e735ba118d54f47458
+05416
+sao paulo
+SP
+49d0ea0986edde72da777f15456a0ee0
+3e6fd6b2f0d499456a6a6820a40f2d79
+68485
+pacaja
+PA
+154c4ded6991bdfa3cd249d11abf4130
+e607ede0e63436308660236f5a52da5e
+88034
+florianopolis
+SC
+690172ab319622688d3b4df42f676898
+a96d5cfa0d3181817e2b946f921ea021
+74914
+aparecida de goiania
+GO
+2938121a40a20953c43caa8c98787fcb
+482441ea6a06b1f72fe9784756c0ea75
+05713
+sao paulo
+SP
+237098a64674ae89babdc426746260fc
+4390ddbb6276a66ff1736a6710205dca
+82820
+curitiba
+PR
+cb721d7b4f271fd87011c4c83462c076
+a5844ba4bfc8d0cc61d13027c7e63bcc
+08225
+sao paulo
+SP
+f681356046d9fde60e70c73a18d65ea2
+5f102dd37243f152aec3607970aad100
+09121
+santo andre
+SP
+167bd30a409e3e4127df5a9408ebd394
+9c0096673baf55453a50073f12d1a37f
+74310
+goiania
+GO
+6e359a57a91f84095cc64e1b351aef8c
+2e6a42a9b5cbb0da62988694f18ee295
+04571
+sao paulo
+SP
+e0eea8f69a457b3f1fa246e44c9ebefd
+4d221875624017bc47b4d1ce7314a5b7
+29311
+cachoeiro de itapemirim
+ES
+e3109970a3fe8021d5ff82c577ce5606
+a8654e2af5da6bb72f52c22b164855e1
+05528
+sao paulo
+SP
+261cb4f92498ca05d5bd1a327a261d9c
+424aca6872c5bab80780a8dec03b7516
+12235
+sao jose dos campos
+SP
+6f92779347724b67e44e3224f3b4cffd
+bf4862777db128507e9efcc789215e9b
+18130
+sao roque
+SP
+2d5831cb2dff7cdefba62e950ae3dc7b
+e9dd12dca17352644a959d9dea133935
+42800
+camacari
+BA
+b2bed119388167a954382cca36c4777f
+e079b18794454de9d2be5c12b4392294
+27525
+resende
+RJ
+469634941c27cd844170935a3cf60b95
+ef07ba9aa5226f77264ffa5762b2280b
+81750
+curitiba
+PR
+df0aa5b8586495e0ddf6b601122e43a1
+85d234692f7bee8d6fea586e237334b6
+13175
+sumare
+SP
+41c8f4b570869791379a925899a6af8a
+fe3634ccefbcdb0537b45fd589e32e8e
+07170
+guarulhos
+SP
+54f755c3fd2709231f9964a1430c5218
+40febde16f4718a5def537786473b0be
+93415
+novo hamburgo
+RS
+4c06b42fbf7b97ab10779cda5549cd1c
+07d190f123147d9e89d4b922543d7948
+65075
+sao luis
+MA
+b6368ca0f56d4632f44d58ca431487b2
+dd992305cba295d997f263dbdf4e8c2e
+88104
+sao jose
+SC
+4a0e66fd30684aa1409cd1b66fec77cc
+86085586aaa8c5f47ed0b400da64c59d
+07176
+guarulhos
+SP
+c168abb9077b7821adae01dc1f0886c5
+5ad58a4e6a1a656b6bed070cadbaa003
+35960
+santa barbara
+MG
+a3b0fda37bae14cf754877bed475e80c
+c9158d089637ab443c78984d20da7fc0
+05727
+sao paulo
+SP
+0ccd415657ae8a6cd1c71b00155a019e
+66cc90195ca44cc7ac6a1cd0e1e1e7b2
+07053
+guarulhos
+SP
+c532a74a3ebf1bacce2e2bcce3783317
+91ec50a00ae74d0a229d2efdf4344e1e
+14026
+ribeirao preto
+SP
+19cecb194f54e614b70d971306a9931b
+d251c190ca75786e9ab937982d60d1d4
+30320
+belo horizonte
+MG
+f34a6e874087ec1f0e3dab9fdf659c5d
+233896de79986082f1f479f1f85281cb
+38300
+ituiutaba
+MG
+c132855c926907970dcf6f2bf0b33a24
+a8ae36a2bb6c2bbc3b5d62ede131c9ef
+18740
+taquarituba
+SP
+df85b96ba2ce3e49bde101b1614f52ac
+8d46223c91cbeb93e0930ca8bd8ffca2
+83085
+sao jose dos pinhais
+PR
+4d27341acd30a36bca39008ee9bb9050
+e021e698833bdeb89dfef3acb2e91f37
+89254
+jaragua do sul
+SC
+d3b6830d18c7de943d1e707d1f061d40
+27cf4b153010911a0957150255a6c6db
+05351
+sao paulo
+SP
+79de53946db384e2d7a9bd131792ad17
+7ce5b57a120a2da6a804afa58ffcbfb5
+39406
+montes claros
+MG
+a562ab1e728449e3461829dfe2e36f73
+d33eeadf54cb883e79be640f38c32cdc
+14860
+barrinha
+SP
+b64ed91eab98972150bdaf77ca921934
+3da7750bf3c1dbd724624a60a9f5942b
+21310
+rio de janeiro
+RJ
+8247b5583327ab8be19f96e1fb82f77b
+d85547cd859833520b311b4458a14c1c
+23970
+parati
+RJ
+8fcaa9368903f3a9a28aeaff28c14638
+3af0b2f7654f613ff1527b997a2ac57e
+79804
+dourados
+MS
+a9b0d1c26105279e1b8edc63d06bd668
+3d49f4455a3947c8dd7e972b3ad8cb76
+05017
+sao paulo
+SP
+aa9f03ecd3728c9bd12e6d962c66c7cb
+b03e9d9818ee170e9d6b983803c7d406
+75388
+trindade
+GO
+230c0d740401730c7197d16376893525
+a302a693d5722d95984e6472150b9391
+85808
+cascavel
+PR
+a905baa530258422594f1b05615bd225
+c80da60feddb7cf8325bd104032e314a
+60140
+fortaleza
+CE
+4fa19f7da692e6bf9602aaad3c372eda
+a2b8841410cf77619574d311cd06fd5e
+72270
+brasilia
+DF
+03f846ad03437d864a8d2a22976dcafe
+7677c213007e9a6ec9267ea50b5ce5bc
+02075
+sao paulo
+SP
+de4e13fd7d6469c5ada77d0843c55e42
+0c17f9ac28cbd7323f0f4043e9db5907
+96015
+pelotas
+RS
+8276de07ef25225d412b8462d73f8664
+332cf4e83e16004ba7dca932ce82475b
+90010
+porto alegre
+RS
+cc32707d2e2f7c92ab449f9b28154809
+0d516ca029d6a28d5cfddd80b27a26dc
+22440
+rio de janeiro
+RJ
+a02f66c3af7b16eec19ddcd98b645fe3
+b3548d0cec408ae13d143bb4eeebaa6c
+13323
+salto
+SP

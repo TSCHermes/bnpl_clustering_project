@@ -1,0 +1,56 @@
+Loading data...
+Merging data...
+Aggregating to customer level...
+Traceback (most recent call last):
+  File "/hermes_workspace/Olist_e_commerce_project/olist_clustering_pca.py", line 72, in <module>
+    customer_features = orders_items_products_sellers_payments_reviews.groupby('customer_unique_id').agg(
+                        ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^
+        # RFM features
+        ^^^^^^^^^^^^^^
+    ...<16 lines>...
+        # Geographic features (from customer state)
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    ).reset_index()
+    ^
+  File "/hermes_workspace/Olist_e_commerce_project/.venv/lib/python3.13/site-packages/pandas/core/groupby/generic.py", line 2291, in aggregate
+    result = op.agg()
+  File "/hermes_workspace/Olist_e_commerce_project/.venv/lib/python3.13/site-packages/pandas/core/apply.py", line 294, in agg
+    return self.agg_dict_like()
+           ~~~~~~~~~~~~~~~~~~^^
+  File "/hermes_workspace/Olist_e_commerce_project/.venv/lib/python3.13/site-packages/pandas/core/apply.py", line 511, in agg_dict_like
+    return self.agg_or_apply_dict_like(op_name="agg")
+           ~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^
+  File "/hermes_workspace/Olist_e_commerce_project/.venv/lib/python3.13/site-packages/pandas/core/apply.py", line 1677, in agg_or_apply_dict_like
+    result_index, result_data = self.compute_dict_like(
+                                ~~~~~~~~~~~~~~~~~~~~~~^
+        op_name, selected_obj, selection, kwargs
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "/hermes_workspace/Olist_e_commerce_project/.venv/lib/python3.13/site-packages/pandas/core/apply.py", line 592, in compute_dict_like
+    results.append(getattr(series, op_name)(how, **kwargs))
+                   ~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^
+  File "/hermes_workspace/Olist_e_commerce_project/.venv/lib/python3.13/site-packages/pandas/core/groupby/generic.py", line 464, in aggregate
+    ret = self._aggregate_multiple_funcs(func, *args, **kwargs)
+  File "/hermes_workspace/Olist_e_commerce_project/.venv/lib/python3.13/site-packages/pandas/core/groupby/generic.py", line 522, in _aggregate_multiple_funcs
+    results[key] = self.aggregate(func, *args, **kwargs)
+                   ~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^
+  File "/hermes_workspace/Olist_e_commerce_project/.venv/lib/python3.13/site-packages/pandas/core/groupby/generic.py", line 493, in aggregate
+    return self._python_agg_general(func, *args, **kwargs)
+           ~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^
+  File "/hermes_workspace/Olist_e_commerce_project/.venv/lib/python3.13/site-packages/pandas/core/groupby/generic.py", line 501, in _python_agg_general
+    result = self._grouper.agg_series(obj, f)
+  File "/hermes_workspace/Olist_e_commerce_project/.venv/lib/python3.13/site-packages/pandas/core/groupby/ops.py", line 988, in agg_series
+    result = self._aggregate_series_pure_python(obj, func)
+  File "/hermes_workspace/Olist_e_commerce_project/.venv/lib/python3.13/site-packages/pandas/core/groupby/ops.py", line 1001, in _aggregate_series_pure_python
+    res = func(group)
+  File "/hermes_workspace/Olist_e_commerce_project/.venv/lib/python3.13/site-packages/pandas/core/groupby/generic.py", line 498, in <lambda>
+    f = lambda x: func(x, *args, **kwargs)
+                  ~~~~^^^^^^^^^^^^^^^^^^^^
+  File "/hermes_workspace/Olist_e_commerce_project/olist_clustering_pca.py", line 74, in <lambda>
+    recency=('order_purchase_timestamp', lambda x: (data_path / 'dummy').stat().st_mtime - x.max().timestamp()),  # Will fix below
+                                                   ~~~~~~~~~~~~~~~~~~~~~~~~~~^^
+  File "/usr/lib/python3.13/pathlib/_local.py", line 517, in stat
+    return os.stat(self, follow_symlinks=follow_symlinks)
+           ~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+FileNotFoundError: [Errno 2] No such file or directory: '/hermes_workspace/Olist_e_commerce_project/dummy'
