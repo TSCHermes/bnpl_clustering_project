@@ -1,0 +1,1457 @@
+feature,importance
+avg_monetary,0.6854558737516838
+recency,0.06398648684274864
+monetary,0.03754661602824654
+avg_freight_per_order,0.034887650206079646
+unique_sellers,0.01504051679030908
+frequency,0.013645028934924126
+avg_items_per_order,0.01233481053979608
+customer_city_novo hamburgo,0.007670446175257672
+customer_city_salvador,0.004934629701799367
+unique_product_categories,0.003939765518341945
+customer_state_RJ,0.0037946591108073756
+avg_review_score,0.00363606549287625
+customer_city_uberaba,0.003603847524476043
+customer_state_DF,0.003289548412624648
+customer_city_canoas,0.0031606557452287846
+customer_city_lorena,0.0031424424004229206
+customer_city_paulinia,0.0029927679649297224
+customer_city_vitoria da conquista,0.002818804633652927
+customer_city_borborema,0.002713171338370127
+customer_state_SP,0.0026599898770099
+customer_state_BA,0.0025902576883998136
+customer_city_uberlandia,0.0025819679979013515
+customer_city_carapicuiba,0.002375799135881205
+customer_city_diamantina,0.0022820657140677067
+customer_city_brumado,0.0022683596346527164
+customer_city_porto alegre,0.002167886041799166
+customer_city_indaiatuba,0.0021665780913694504
+customer_city_apucarana,0.002017252345121658
+customer_city_valenca,0.0019920882288614085
+customer_city_assis,0.001614299149775119
+customer_city_itatiba,0.0015859617022752172
+customer_city_brasilia,0.0015737647025407563
+customer_city_capelinha,0.001502630502407287
+customer_city_ilhabela,0.0014832582786202353
+customer_city_ibiruba,0.0014782221566874653
+customer_city_nova esperanca,0.0014694786470886942
+customer_city_alegrete,0.0014313138037602862
+customer_city_queimadas,0.0013757888921197476
+customer_city_sapucaia do sul,0.0013566415593045619
+customer_city_duque de caxias,0.0013479587153417331
+customer_state_RS,0.0011425462141784275
+customer_city_sao leopoldo,0.0011238588528656895
+customer_state_RN,0.0010161611380784914
+customer_city_londrina,0.00101439219042156
+customer_city_dias d'avila,0.0010003435792190385
+customer_city_bage,0.0009875181360685455
+customer_city_lagarto,0.0009872447995794408
+customer_city_resende,0.0009724204516924105
+customer_city_marica,0.0009720658746342016
+customer_state_CE,0.0009634802049044828
+customer_city_monte alto,0.000959925607860913
+customer_city_imbituba,0.000945137828840072
+customer_city_chapeco,0.0009449985130585512
+customer_city_mantena,0.000932283371761822
+customer_city_joao pessoa,0.0009208586973043437
+customer_city_xanxere,0.0009208314090761346
+customer_city_paracambi,0.0009197428129368053
+customer_city_escada,0.0009174447999347419
+customer_city_sacramento,0.0009056613242463497
+customer_city_barra mansa,0.0009053957722007331
+customer_city_itaborai,0.0008983047724966556
+customer_city_passa quatro,0.0008922564339294206
+customer_city_araraquara,0.0008840542641628728
+customer_city_artur nogueira,0.0008773701943001946
+customer_city_manhuacu,0.0008701279288210273
+customer_city_corumba,0.0008593629769556501
+customer_city_capivari,0.0008493217617753053
+customer_city_telemaco borba,0.0008430308930059318
+customer_city_santa maria da vitoria,0.0008398473844651506
+customer_city_gravatai,0.0008206176560476038
+customer_city_angra dos reis,0.0008154786398106374
+customer_city_sabara,0.0007980525631743357
+customer_city_jundiai,0.0007670209479293075
+customer_city_campo mourao,0.0007636499318173904
+customer_city_sao pedro da aldeia,0.00075293155644255
+customer_city_bariri,0.0007492840158562145
+customer_city_sao roque,0.0007379756376805053
+customer_city_sao jose do rio preto,0.0007003383833836779
+customer_city_treze tilias,0.0006503766979081485
+customer_city_peruibe,0.0006485442534856009
+customer_city_santa maria,0.0006227228015466761
+customer_city_lapa,0.0006214573676135805
+customer_city_mirassol,0.0006153230541067615
+customer_city_itanhaem,0.0006141215880939147
+customer_state_MS,0.000581846249560902
+customer_city_jose da penha,0.0005147508768170325
+customer_city_macaiba,0.0005064849296588809
+customer_city_itaquaquecetuba,0.00046094300571090414
+customer_city_campinas,0.0004525092083431108
+customer_city_jandira,0.00044356588241961095
+customer_city_aruja,0.0004430250781782316
+customer_city_caetanopolis,0.0004341621410834132
+customer_city_jacui,0.0004303368191916326
+customer_city_patos de minas,0.00042875518221703634
+customer_state_PE,0.0004269052803139213
+customer_city_sao jose dos pinhais,0.00041855048314481377
+customer_city_seropedica,0.00041723110267056704
+customer_city_itapecerica da serra,0.0004158924274370655
+customer_city_votorantim,0.00041410398626161093
+customer_city_juazeiro,0.0004124630614468635
+customer_city_inacio martins,0.0004069974693855089
+customer_city_itarare,0.0004015244659552986
+customer_city_santo antonio de jesus,0.00040021994438661464
+pct_orders_with_review,0.00039740407941103045
+customer_city_aparecida de goiania,0.00039670564340888337
+customer_city_pilar do sul,0.0003924650516428148
+customer_city_patos,0.00038388468065430644
+customer_city_jaragua do sul,0.0003836287904979555
+customer_city_teresina,0.0003811442834864497
+customer_city_coronel fabriciano,0.0003790926019328371
+customer_city_arroio do meio,0.00037729263350118835
+customer_city_montes claros,0.0003757053197294656
+customer_city_bom despacho,0.00036892382564140226
+customer_city_araruama,0.0003630535020025527
+customer_city_lages,0.0003612257819831663
+customer_city_jaboticabal,0.00035694231896433754
+customer_city_araguari,0.00035635425444502014
+customer_city_dracena,0.00035616910002598515
+customer_city_rio de janeiro,0.00010050727725645283
+customer_city_pedreira,0.0
+customer_city_paulo frontin,0.0
+customer_city_paulo afonso,0.0
+customer_city_paulista,0.0
+customer_city_pau dos ferros,0.0
+customer_city_patrocinio,0.0
+customer_city_pedro leopoldo,0.0
+customer_city_perdigao,0.0
+customer_city_penha,0.0
+customer_city_pejucara,0.0
+customer_city_paulo lopes,0.0
+customer_city_pato branco,0.0
+customer_city_passos,0.0
+customer_city_passo fundo,0.0
+customer_city_passagem,0.0
+customer_city_passa tres,0.0
+customer_city_penedo,0.0
+customer_city_piao,0.0
+customer_city_pelotas,0.0
+customer_city_penapolis,0.0
+customer_city_petrolandia,0.0
+customer_city_petropolis,0.0
+customer_city_petrolina,0.0
+customer_city_pereira barreto,0.0
+customer_city_papucaia,0.0
+customer_city_para de minas,0.0
+customer_city_paracatu,0.0
+customer_city_paracuru,0.0
+customer_city_paragominas,0.0
+customer_city_paraguacu paulista,0.0
+customer_city_paraiba do sul,0.0
+customer_city_paraibuna,0.0
+customer_city_paraiso,0.0
+customer_city_ouricuri,0.0
+customer_city_pedro ii,0.0
+customer_city_ouro branco,0.0
+customer_city_ouro fino,0.0
+customer_city_ouro preto,0.0
+customer_city_ouroeste,0.0
+customer_city_ouvidor,0.0
+customer_city_pacaembu,0.0
+customer_city_pacaja,0.0
+customer_city_pacajus,0.0
+customer_city_paco do lumiar,0.0
+customer_city_pains,0.0
+customer_city_ourinhos,0.0
+customer_city_pecanha,0.0
+customer_city_pederneiras,0.0
+customer_city_paraiso do tocantins,0.0
+customer_city_paraisopolis,0.0
+customer_city_parambu,0.0
+customer_city_paranacity,0.0
+customer_city_paranagua,0.0
+customer_city_paranaiba,0.0
+customer_city_paranapua,0.0
+customer_city_paranavai,0.0
+customer_city_papanduva,0.0
+customer_city_paraty,0.0
+customer_city_parauapebas,0.0
+customer_city_paripueira,0.0
+customer_city_parnaiba,0.0
+customer_city_parnamirim,0.0
+customer_city_parobe,0.0
+customer_city_palmeira,0.0
+customer_city_palmeira das missoes,0.0
+customer_city_palmeiras de goias,0.0
+customer_city_palmital,0.0
+customer_city_palmitos,0.0
+customer_city_parati,0.0
+customer_city_ponto novo,0.0
+customer_city_porangatu,0.0
+customer_city_porecatu,0.0
+customer_city_portalegre,0.0
+customer_city_portao,0.0
+customer_city_porteirinha,0.0
+customer_city_porto amazonas,0.0
+customer_city_porto feliz,0.0
+customer_city_porto nacional,0.0
+customer_city_padre bernardo,0.0
+customer_city_porto velho,0.0
+customer_city_potiragua,0.0
+customer_city_pouso alegre,0.0
+customer_city_praia grande,0.0
+customer_city_pires ferreira,0.0
+customer_city_pitangueiras,0.0
+customer_city_pitangui,0.0
+customer_city_piuma,0.0
+customer_city_piumhii,0.0
+customer_city_poa,0.0
+customer_city_porto seguro,0.0
+customer_city_raposos,0.0
+customer_city_reboucas,0.0
+customer_city_recife,0.0
+customer_city_recreio,0.0
+customer_city_praia norte,0.0
+customer_city_prata,0.0
+customer_city_presidente dutra,0.0
+customer_city_presidente epitacio,0.0
+customer_city_presidente getulio,0.0
+customer_city_pontes e lacerda,0.0
+customer_city_presidente olegario,0.0
+customer_city_presidente prudente,0.0
+customer_city_presidente tancredo neves,0.0
+customer_city_primavera,0.0
+customer_city_primavera do leste,0.0
+customer_city_promissao,0.0
+customer_city_puxinana,0.0
+customer_city_quarai,0.0
+customer_city_quatigua,0.0
+customer_city_quatis,0.0
+customer_city_presidente kubitschek,0.0
+customer_city_pirapozinho,0.0
+customer_city_pirassununga,0.0
+customer_city_piratuba,0.0
+customer_city_pires do rio,0.0
+customer_city_picos,0.0
+customer_city_piedade,0.0
+customer_city_piedade de caratinga,0.0
+customer_city_piedade dos gerais,0.0
+customer_city_pilao arcado,0.0
+customer_city_pocos de caldas,0.0
+customer_city_pimenta bueno,0.0
+customer_city_pindai,0.0
+customer_city_pindamonhangaba,0.0
+customer_city_pindoba,0.0
+customer_city_pinhais,0.0
+customer_city_pinhalao,0.0
+customer_city_pinhalzinho,0.0
+customer_city_pinheiral,0.0
+customer_city_pinhotiba,0.0
+customer_city_pedrao,0.0
+customer_city_pilar,0.0
+customer_city_pojuca,0.0
+customer_city_pombal,0.0
+customer_city_pomerode,0.0
+customer_city_pompeia,0.0
+customer_city_ponta grossa,0.0
+customer_city_ponta pora,0.0
+customer_city_pontal,0.0
+customer_city_pontal do parana,0.0
+customer_city_ponte nova,0.0
+customer_city_pirapora do bom jesus,0.0
+customer_city_piracanjuba,0.0
+customer_city_piracicaba,0.0
+customer_city_pirai,0.0
+customer_city_piraju,0.0
+customer_city_pirajuba,0.0
+customer_city_pirajui,0.0
+customer_city_pirangi,0.0
+customer_city_piranguinho,0.0
+customer_city_piranhas,0.0
+customer_city_pirapora,0.0
+customer_city_piquete,0.0
+customer_city_mogi mirim,0.0
+customer_city_mogi-guacu,0.0
+customer_city_mongagua,0.0
+customer_city_montalvania,0.0
+customer_city_monte aprazivel,0.0
+customer_city_mata roma,0.0
+customer_city_matao,0.0
+customer_city_matelandia,0.0
+customer_city_mateus leme,0.0
+customer_city_realeza,0.0
+customer_city_matinhos,0.0
+customer_city_matipo,0.0
+customer_city_matozinhos,0.0
+customer_city_maua,0.0
+customer_city_medeiros,0.0
+customer_city_medeiros neto,0.0
+customer_city_mesquita,0.0
+customer_city_miguel pereira,0.0
+customer_city_miguelopolis,0.0
+customer_city_matias barbosa,0.0
+customer_city_monte carmelo,0.0
+customer_city_monte gordo,0.0
+customer_city_monte mor,0.0
+customer_city_monte siao,0.0
+customer_city_monte verde,0.0
+customer_city_montenegro,0.0
+customer_city_moreno,0.0
+customer_city_morpara,0.0
+customer_city_morrinhos,0.0
+customer_city_mogi das cruzes,0.0
+customer_city_morro da fumaca,0.0
+customer_city_morungaba,0.0
+customer_city_minas novas,0.0
+customer_city_mineiros,0.0
+customer_city_miracema,0.0
+customer_city_miraguai,0.0
+customer_city_mirandopolis,0.0
+customer_city_missal,0.0
+customer_city_missi,0.0
+customer_city_mococa,0.0
+customer_city_morro agudo,0.0
+customer_city_mambore,0.0
+customer_city_manaus,0.0
+customer_city_mandaguari,0.0
+customer_city_manga,0.0
+customer_city_mangaratiba,0.0
+customer_city_mangueirinha,0.0
+customer_city_manhumirim,0.0
+customer_city_mansidao,0.0
+customer_city_maraba,0.0
+customer_city_mimoso do sul,0.0
+customer_city_luiziania,0.0
+customer_city_luminarias,0.0
+customer_city_luziania,0.0
+customer_city_luziapolis,0.0
+customer_city_luzilandia,0.0
+customer_city_macae,0.0
+customer_city_macatuba,0.0
+customer_city_macedonia,0.0
+customer_city_maceio,0.0
+customer_city_machado,0.0
+customer_city_luis eduardo magalhaes,0.0
+customer_city_minacu,0.0
+customer_city_maracai,0.0
+customer_city_maracanau,0.0
+customer_city_maracas,0.0
+customer_city_maragogipe,0.0
+customer_city_maravilhas,0.0
+customer_city_marechal candido rondon,0.0
+customer_city_mari,0.0
+customer_city_mariental,0.0
+customer_city_mairipotaba,0.0
+customer_city_marilia,0.0
+customer_city_maringa,0.0
+customer_city_mario campos,0.0
+customer_city_martinho campos,0.0
+customer_city_martinopolis,0.0
+customer_city_mata de sao joao,0.0
+customer_city_mage,0.0
+customer_city_maiquinique,0.0
+customer_city_mairinque,0.0
+customer_city_mairipora,0.0
+customer_city_marilac,0.0
+customer_city_nova lima,0.0
+customer_city_nova monte verde,0.0
+customer_city_nova mutum,0.0
+customer_city_nova odessa,0.0
+customer_city_nova olimpia,0.0
+customer_city_nova olinda do maranhao,0.0
+customer_city_nova padua,0.0
+customer_city_nova ponte,0.0
+customer_city_nova russas,0.0
+customer_city_monte carlo,0.0
+customer_city_nova trento,0.0
+customer_city_nova venecia,0.0
+customer_city_novo gama,0.0
+customer_city_agua preta,0.0
+customer_city_aguas da prata,0.0
+customer_city_aguas lindas de goias,0.0
+customer_city_aguia branca,0.0
+customer_city_ajuricaba,0.0
+customer_city_alagoinhas,0.0
+customer_city_nova serrana,0.0
+customer_city_palestina,0.0
+customer_city_palhoca,0.0
+customer_city_palmas,0.0
+customer_city_novo horizonte,0.0
+customer_city_novo oriente,0.0
+customer_city_novo progresso,0.0
+customer_city_nuporanga,0.0
+customer_city_oeiras,0.0
+customer_city_oleo,0.0
+customer_city_nova independencia,0.0
+customer_city_olinda,0.0
+customer_city_oliveira,0.0
+customer_city_oliveira dos brejinhos,0.0
+customer_city_orizona,0.0
+customer_city_orlandia,0.0
+customer_city_ortigueira,0.0
+customer_city_osasco,0.0
+customer_city_osorio,0.0
+customer_city_osvaldo cruz,0.0
+customer_city_nova iguacu,0.0
+customer_city_olimpia,0.0
+customer_city_nova friburgo,0.0
+customer_city_nova granada,0.0
+customer_city_mossoro,0.0
+customer_city_mostardas,0.0
+customer_city_mozarlandia,0.0
+customer_city_mucambo,0.0
+customer_city_muqui,0.0
+customer_city_muriae,0.0
+customer_city_mutum,0.0
+customer_city_alcinopolis,0.0
+customer_city_muzambinho,0.0
+customer_city_nantes,0.0
+customer_city_nanuque,0.0
+customer_city_natal,0.0
+customer_city_natividade,0.0
+customer_city_navegantes,0.0
+customer_city_navirai,0.0
+customer_city_nazare paulista,0.0
+customer_city_monte azul,0.0
+customer_city_monte azul paulista,0.0
+customer_city_mutunopolis,0.0
+customer_city_alegre,0.0
+customer_city_alem paraiba,0.0
+customer_city_alexandria,0.0
+customer_city_alfenas,0.0
+customer_city_alfredo wagner,0.0
+customer_city_almino afonso,0.0
+customer_city_almirante tamandare,0.0
+customer_city_alpinopolis,0.0
+customer_city_nepomuceno,0.0
+customer_city_nova esperanca do sudoeste,0.0
+customer_city_niquelandia,0.0
+customer_city_niteroi,0.0
+customer_city_nonoai,0.0
+customer_city_nossa senhora da gloria,0.0
+customer_city_nossa senhora das gracas,0.0
+customer_city_nossa senhora do o,0.0
+customer_city_nossa senhora do socorro,0.0
+customer_city_nova andradina,0.0
+customer_city_nova crixas,0.0
+customer_city_nova era,0.0
+customer_city_nilopolis,0.0
+customer_city_tabapua,0.0
+customer_city_tabira,0.0
+customer_city_taboao da serra,0.0
+customer_city_tabocas do brejo velho,0.0
+customer_city_taguai,0.0
+customer_city_taio,0.0
+customer_city_tambau,0.0
+customer_city_tangara da serra,0.0
+customer_city_tangua,0.0
+customer_city_machadinho d'oeste,0.0
+customer_city_taquara,0.0
+customer_city_taquari,0.0
+customer_city_taquaritinga,0.0
+customer_city_taquarituba,0.0
+customer_city_simoes filho,0.0
+customer_city_sinop,0.0
+customer_city_sirinhaem,0.0
+customer_city_sitio novo,0.0
+customer_city_socorro,0.0
+customer_city_soledade,0.0
+customer_city_tanhacu,0.0
+customer_city_tremembe,0.0
+customer_city_tres barras,0.0
+customer_city_tres coracoes,0.0
+customer_city_tres fronteiras,0.0
+customer_city_tres lagoas,0.0
+customer_city_tarumirim,0.0
+customer_city_tatui,0.0
+customer_city_taubate,0.0
+customer_city_teixeira de freitas,0.0
+customer_city_suzano,0.0
+customer_city_teolandia,0.0
+customer_city_teresopolis,0.0
+customer_city_terra de areia,0.0
+customer_city_terra rica,0.0
+customer_city_terra roxa,0.0
+customer_city_tiete,0.0
+customer_city_timbo,0.0
+customer_city_timon,0.0
+customer_city_timoteo,0.0
+customer_city_suzanapolis,0.0
+customer_city_teofilo otoni,0.0
+customer_city_setubinha,0.0
+customer_city_silvanopolis,0.0
+customer_city_sao sebastiao,0.0
+customer_city_sao sebastiao da amoreira,0.0
+customer_city_sao sebastiao do cai,0.0
+customer_city_sao sebastiao do paraiso,0.0
+customer_city_sao simao,0.0
+customer_city_sao tiago,0.0
+customer_city_sao tome,0.0
+customer_city_solonopole,0.0
+customer_city_sapezal,0.0
+customer_city_sapiranga,0.0
+customer_city_sapucai-mirim,0.0
+customer_city_saquarema,0.0
+customer_city_sarandi,0.0
+customer_city_sarzedo,0.0
+customer_city_sao lourenco do sul,0.0
+customer_city_sao luis,0.0
+customer_city_sao luiz gonzaga,0.0
+customer_city_sao manuel,0.0
+customer_city_sao vicente,0.0
+customer_city_sooretama,0.0
+customer_city_sorocaba,0.0
+customer_city_sorriso,0.0
+customer_city_sousa,0.0
+customer_city_sucesso,0.0
+customer_city_sud mennucci,0.0
+customer_city_sumare,0.0
+customer_city_sumidouro,0.0
+customer_city_surubim,0.0
+customer_city_seabra,0.0
+customer_city_sete lagoas,0.0
+customer_city_senador guiomard,0.0
+customer_city_senador salgado filho,0.0
+customer_city_senhor do bonfim,0.0
+customer_city_serra,0.0
+customer_city_serra negra,0.0
+customer_city_serranopolis,0.0
+customer_city_serrinha,0.0
+customer_city_sertao,0.0
+customer_city_sertaozinho,0.0
+customer_city_sete barras,0.0
+customer_city_senador canedo,0.0
+customer_city_vila valerio,0.0
+customer_city_vila velha,0.0
+customer_city_vilhena,0.0
+customer_city_vinhedo,0.0
+customer_city_viradouro,0.0
+customer_city_vitoria,0.0
+customer_city_vitoria das missoes,0.0
+customer_city_vitoria de santo antao,0.0
+customer_city_vitorino,0.0
+customer_city_travessao,0.0
+customer_city_vera cruz,0.0
+customer_city_uibai,0.0
+customer_city_umbauba,0.0
+customer_city_umuarama,0.0
+customer_city_una,0.0
+customer_city_unai,0.0
+customer_city_uniao da vitoria,0.0
+customer_city_urania,0.0
+customer_city_uruburetama,0.0
+customer_city_uruguaiana,0.0
+customer_city_vera,0.0
+customer_city_volta redonda,0.0
+customer_city_vargem alegre,0.0
+customer_city_vargem alta,0.0
+customer_city_vargem bonita,0.0
+customer_city_vargem grande do rio pardo,0.0
+customer_city_vargem grande do sul,0.0
+customer_city_vargem grande paulista,0.0
+customer_city_varginha,0.0
+customer_city_varzea da palma,0.0
+customer_city_vila langaro,0.0
+customer_city_varzea paulista,0.0
+customer_city_vassouras,0.0
+customer_city_vazante,0.0
+customer_city_venancio aires,0.0
+customer_city_vicosa,0.0
+customer_state_PR,0.0
+customer_city_videira,0.0
+customer_city_vila dos cabanos,0.0
+customer_city_vila flor,0.0
+customer_city_vila flores,0.0
+customer_city_varzea grande,0.0
+customer_city_trindade do sul,0.0
+customer_city_triunfo,0.0
+customer_city_tubarao,0.0
+customer_city_tucano,0.0
+customer_city_tupa,0.0
+customer_city_tupaciguara,0.0
+customer_city_tupandi,0.0
+customer_city_uaua,0.0
+customer_city_uba,0.0
+customer_city_vacaria,0.0
+customer_city_tiradentes do sul,0.0
+customer_city_tocantinopolis,0.0
+customer_city_toledo,0.0
+customer_city_tomazina,0.0
+customer_city_torres,0.0
+customer_city_torrinha,0.0
+customer_city_tracunhaem,0.0
+customer_city_traipu,0.0
+customer_city_tramandai,0.0
+customer_city_trancoso,0.0
+customer_city_ubatuba,0.0
+customer_city_valinhos,0.0
+customer_city_valparaiso,0.0
+customer_city_valparaiso de goias,0.0
+customer_state_SC,0.0
+customer_state_SE,0.0
+customer_state_TO,0.0
+customer_city_abadiania,0.0
+customer_city_abaete,0.0
+customer_city_abaetetuba,0.0
+customer_city_acajutiba,0.0
+customer_city_trindade,0.0
+customer_city_acopiara,0.0
+customer_city_adolfo,0.0
+customer_city_afogados da ingazeira,0.0
+customer_city_agua boa,0.0
+customer_city_agua branca,0.0
+customer_city_agua doce do norte,0.0
+customer_city_tres marias,0.0
+customer_city_tres passos,0.0
+customer_city_tres pontas,0.0
+customer_city_tres rios,0.0
+customer_city_acarau,0.0
+customer_city_santa cruz das palmeiras,0.0
+customer_city_santa cruz do capibaribe,0.0
+customer_city_santa cruz do prata,0.0
+customer_city_santa cruz do rio pardo,0.0
+customer_city_santa cruz do sul,0.0
+customer_city_santa fe do sul,0.0
+customer_city_santa gertrudes,0.0
+customer_city_santa helena,0.0
+customer_city_santa ines,0.0
+customer_city_sao martinho,0.0
+customer_city_romaria,0.0
+customer_city_rondonopolis,0.0
+customer_city_rosana,0.0
+customer_city_russas,0.0
+customer_city_sabinopolis,0.0
+customer_city_sales oliveira,0.0
+customer_city_salesopolis,0.0
+customer_city_salgueiro,0.0
+customer_city_salinas,0.0
+customer_city_salinas da margarida,0.0
+customer_city_rolim de moura,0.0
+customer_city_santo antonio das missoes,0.0
+customer_city_santa isabel,0.0
+customer_city_santa isabel do ivai,0.0
+customer_city_santa juliana,0.0
+customer_city_santa lucia,0.0
+customer_city_santa luzia,0.0
+customer_city_santa margarida,0.0
+customer_city_santa maria da boa vista,0.0
+customer_city_santa maria de itabira,0.0
+customer_city_santa cruz cabralia,0.0
+customer_city_santa rita d'oeste,0.0
+customer_city_santa rita do passa quatro,0.0
+customer_city_santa rita do sapucai,0.0
+customer_city_santa rosa,0.0
+customer_city_santa tereza do oeste,0.0
+customer_city_sananduva,0.0
+customer_city_santa adelia,0.0
+customer_city_santa barbara,0.0
+customer_city_santa barbara d'oeste,0.0
+customer_city_santa branca,0.0
+customer_city_santa maria de jetiba,0.0
+customer_city_riachinho,0.0
+customer_city_ribeira do pombal,0.0
+customer_city_ribeirao das neves,0.0
+customer_city_ribeirao pires,0.0
+customer_city_ribeirao preto,0.0
+customer_city_rinopolis,0.0
+customer_city_rio acima,0.0
+customer_city_rio branco,0.0
+customer_city_rio claro,0.0
+customer_city_salto,0.0
+customer_city_quatro barras,0.0
+customer_city_queimados,0.0
+customer_city_querencia,0.0
+customer_city_quinta do sol,0.0
+customer_city_quintana,0.0
+customer_city_quirinopolis,0.0
+customer_city_quitandinha,0.0
+customer_city_quixeramobim,0.0
+customer_city_rancharia,0.0
+customer_city_raposo,0.0
+customer_city_rio das flores,0.0
+customer_city_salto do ceu,0.0
+customer_city_salto do jacui,0.0
+customer_city_rio das ostras,0.0
+customer_city_rio das pedras,0.0
+customer_city_rio do sul,0.0
+customer_city_rio doce,0.0
+customer_city_rio grande,0.0
+customer_city_rio grande da serra,0.0
+customer_city_rio largo,0.0
+customer_city_rio manso,0.0
+customer_city_riachao das neves,0.0
+customer_city_rio negro,0.0
+customer_city_rio novo,0.0
+customer_city_rio pardo de minas,0.0
+customer_city_rio tinto,0.0
+customer_city_rio verde,0.0
+customer_city_rolandia,0.0
+customer_city_redencao,0.0
+customer_city_regente feijo,0.0
+customer_city_registro,0.0
+customer_city_resplendor,0.0
+customer_city_rio negrinho,0.0
+customer_city_sao lourenco do oeste,0.0
+customer_city_sao lourenco do piaui,0.0
+customer_city_sao joao da parauna,0.0
+customer_city_sao joao de meriti,0.0
+customer_city_sao joao del rei,0.0
+customer_city_sao joao do piaui,0.0
+customer_city_sao joao evangelista,0.0
+customer_city_sao joao nepomuceno,0.0
+customer_city_sao joaquim,0.0
+customer_city_santo antonio da platina,0.0
+customer_city_sao joaquim de bicas,0.0
+customer_city_sao jorge,0.0
+customer_city_sao jose,0.0
+customer_city_sao jose da bela vista,0.0
+customer_city_sao jose da coroa grande,0.0
+customer_city_sao jose da lapa,0.0
+customer_city_sao jose de ribamar,0.0
+customer_city_sao jose de uba,0.0
+customer_city_sao felix do xingu,0.0
+customer_city_sao fidelis,0.0
+customer_city_sao joaquim da barra,0.0
+customer_city_sao mateus,0.0
+customer_city_sao mateus do sul,0.0
+customer_city_sao miguel arcanjo,0.0
+customer_city_sao miguel do gostoso,0.0
+customer_city_sao miguel do iguacu,0.0
+customer_city_sao miguel do oeste,0.0
+customer_city_sao miguel do tapuio,0.0
+customer_city_sao paulo,0.0
+customer_city_sao pedro,0.0
+customer_city_sao lourenco,0.0
+customer_city_sao jose do barreiro,0.0
+customer_city_sao jose do egito,0.0
+customer_city_sao jose do norte,0.0
+customer_city_sao jose do ouro,0.0
+customer_city_sao jose do rio pardo,0.0
+customer_city_sao jose do turvo,0.0
+customer_city_sao jose do vale do rio preto,0.0
+customer_city_sao jose do xingu,0.0
+customer_city_sao jose dos campos,0.0
+customer_city_sao jose dos quatro marcos,0.0
+customer_city_sao pedro dos ferros,0.0
+customer_city_sao bento do sapucai,0.0
+customer_city_sao bento do sul,0.0
+customer_city_sao bernardo do campo,0.0
+customer_city_sao borja,0.0
+customer_city_sao caetano do sul,0.0
+customer_city_sao carlos,0.0
+customer_city_sao domingos das dores,0.0
+customer_city_santa vitoria,0.0
+customer_city_santa vitoria do palmar,0.0
+customer_city_sao francisco,0.0
+customer_city_santana,0.0
+customer_city_santana de parnaiba,0.0
+customer_city_santana do livramento,0.0
+customer_city_santana do mundau,0.0
+customer_city_santarem,0.0
+customer_city_santo amaro,0.0
+customer_city_santo anastacio,0.0
+customer_city_santo andre,0.0
+customer_city_santo angelo,0.0
+customer_city_santo antonio da patrulha,0.0
+customer_city_santaluz,0.0
+customer_city_sao francisco de itabapoana,0.0
+customer_city_sao francisco do sul,0.0
+customer_city_sao gabriel,0.0
+customer_city_sao gabriel da palha,0.0
+customer_city_sao gabriel do oeste,0.0
+customer_city_sao goncalo,0.0
+customer_city_sao goncalo do amarante,0.0
+customer_city_sao goncalo do para,0.0
+customer_city_sao gotardo,0.0
+customer_city_sao joao batista,0.0
+customer_city_sao benedito,0.0
+customer_city_sao joao da barra,0.0
+customer_city_sao joao da boa vista,0.0
+customer_city_santo antonio de padua,0.0
+customer_city_santo antonio de posse,0.0
+customer_city_santo antonio do descoberto,0.0
+customer_city_santo antonio do jacinto,0.0
+customer_city_santo augusto,0.0
+customer_city_santo cristo,0.0
+customer_city_santos,0.0
+customer_city_santos dumont,0.0
+customer_city_sao joao d'alianca,0.0
+customer_city_carolina,0.0
+customer_city_carpina,0.0
+customer_city_caruaru,0.0
+customer_city_casa branca,0.0
+customer_city_canelinha,0.0
+customer_city_canoinhas,0.0
+customer_city_cansancao,0.0
+customer_city_cantagalo,0.0
+customer_city_canudos,0.0
+customer_state_RR,0.0
+customer_city_capao bonito,0.0
+customer_city_capetinga,0.0
+customer_city_capinopolis,0.0
+customer_city_capinzal,0.0
+customer_city_capitolio,0.0
+customer_city_caraguatatuba,0.0
+customer_city_carandai,0.0
+customer_city_campo bom,0.0
+customer_city_campo formoso,0.0
+customer_city_campo grande,0.0
+customer_city_capanema,0.0
+customer_city_castilho,0.0
+customer_city_castro,0.0
+customer_city_castro alves,0.0
+customer_city_cataguases,0.0
+customer_city_catalao,0.0
+customer_city_catanduva,0.0
+customer_city_catas altas,0.0
+customer_city_catu de abrantes,0.0
+customer_city_caucaia,0.0
+customer_city_carneirinho,0.0
+customer_city_carangola,0.0
+customer_city_caratinga,0.0
+customer_city_caraubas,0.0
+customer_city_cardoso moreira,0.0
+customer_city_cariacica,0.0
+customer_city_carinhanha,0.0
+customer_city_carlopolis,0.0
+customer_city_carlos barbosa,0.0
+customer_city_carmo,0.0
+customer_city_carmo do paranaiba,0.0
+customer_city_cavalcante,0.0
+customer_city_campanha,0.0
+customer_city_campina do monte alegre,0.0
+customer_city_campina grande,0.0
+customer_city_campina grande do sul,0.0
+customer_city_campinacu,0.0
+customer_city_cachoeiras de macacu,0.0
+customer_city_cachoeirinha,0.0
+customer_city_cachoeiro de itapemirim,0.0
+customer_city_cacimbinhas,0.0
+customer_city_campo largo,0.0
+customer_city_cacule,0.0
+customer_city_caete,0.0
+customer_city_caetite,0.0
+customer_city_caiana,0.0
+customer_city_caieiras,0.0
+customer_city_cairu,0.0
+customer_city_cajamar,0.0
+customer_city_cajapio,0.0
+customer_city_cajati,0.0
+customer_city_cajazeiras,0.0
+customer_city_caconde,0.0
+customer_city_campo limpo paulista,0.0
+customer_city_campo maior,0.0
+customer_city_campo verde,0.0
+customer_city_campos do jordao,0.0
+customer_city_campos dos goytacazes,0.0
+customer_city_canaa dos carajas,0.0
+customer_city_candeias,0.0
+customer_city_candelaria,0.0
+customer_city_candido mota,0.0
+customer_city_camocim,0.0
+customer_city_cajuru,0.0
+customer_city_caldas novas,0.0
+customer_city_california da barra,0.0
+customer_city_camacari,0.0
+customer_city_camaqua,0.0
+customer_city_camaragibe,0.0
+customer_city_cambara,0.0
+customer_city_cambe,0.0
+customer_city_camboriu,0.0
+customer_city_cambui,0.0
+customer_city_candido rodrigues,0.0
+customer_city_conselheiro lafaiete,0.0
+customer_city_conselheiro mairinck,0.0
+customer_city_contagem,0.0
+customer_city_cordeiro,0.0
+customer_city_coribe,0.0
+customer_city_coromandel,0.0
+customer_city_coronel vivida,0.0
+customer_city_coruripe,0.0
+customer_city_cosmopolis,0.0
+customer_city_castelo do piaui,0.0
+customer_city_costa rica,0.0
+customer_city_colombo,0.0
+customer_city_colonia leopoldina,0.0
+customer_city_colonia vitoria,0.0
+customer_city_colorado,0.0
+customer_city_colorado do oeste,0.0
+customer_city_coluna,0.0
+customer_city_comendador levy gasparian,0.0
+customer_city_conceicao,0.0
+customer_city_conceicao de macabu,0.0
+customer_city_cosmorama,0.0
+customer_city_divinopolis,0.0
+customer_city_dobrada,0.0
+customer_city_cotia,0.0
+customer_city_cotriguacu,0.0
+customer_city_crato,0.0
+customer_city_cravolandia,0.0
+customer_city_criciuma,0.0
+customer_city_cristais,0.0
+customer_city_cristalina,0.0
+customer_city_congonhas,0.0
+customer_city_crixas,0.0
+customer_city_cruz,0.0
+customer_city_cruz alta,0.0
+customer_city_cruzeiro,0.0
+customer_city_cruzilia,0.0
+customer_city_cubatao,0.0
+customer_city_cuiaba,0.0
+customer_city_cuite,0.0
+customer_city_concordia,0.0
+customer_city_condado,0.0
+customer_city_cristina,0.0
+customer_city_caxambu,0.0
+customer_city_caxambu do sul,0.0
+customer_city_caxias,0.0
+customer_city_caxias do sul,0.0
+customer_city_cedro de sao joao,0.0
+customer_city_cedro do abaete,0.0
+customer_city_central de santa helena,0.0
+customer_city_ceres,0.0
+customer_city_cerqueira cesar,0.0
+customer_city_conceicao do araguaia,0.0
+customer_city_cesario lange,0.0
+customer_city_ceu azul,0.0
+customer_city_cezarina,0.0
+customer_city_chapada do norte,0.0
+customer_city_chapadao do sul,0.0
+customer_city_casca,0.0
+customer_city_cascavel,0.0
+customer_city_casimiro de abreu,0.0
+customer_city_castanhal,0.0
+customer_city_castelo,0.0
+customer_city_cerquilho,0.0
+customer_city_conceicao do castelo,0.0
+customer_city_conceicao do coite,0.0
+customer_city_conceicao do formoso,0.0
+customer_city_conceicao do jacuipe,0.0
+customer_city_conceicao do mato dentro,0.0
+customer_city_conchal,0.0
+customer_city_charqueadas,0.0
+customer_city_chavantes,0.0
+customer_city_chaveslandia,0.0
+customer_city_chopinzinho,0.0
+customer_city_colinas,0.0
+customer_city_cicero dantas,0.0
+customer_city_cidade ocidental,0.0
+customer_city_claudio,0.0
+customer_city_clementina,0.0
+customer_city_cocal do sul,0.0
+customer_city_codo,0.0
+customer_city_coelho neto,0.0
+customer_city_colatina,0.0
+customer_city_colider,0.0
+customer_city_colina,0.0
+customer_city_cianorte,0.0
+customer_city_ataleia,0.0
+customer_city_atibaia,0.0
+customer_city_auriflama,0.0
+customer_city_avanhandava,0.0
+customer_city_avare,0.0
+customer_city_avelino lopes,0.0
+customer_city_bacabal,0.0
+customer_city_baixo guandu,0.0
+customer_city_balneario camboriu,0.0
+customer_city_brumadinho,0.0
+customer_city_araxa,0.0
+customer_city_arceburgo,0.0
+customer_city_arcos,0.0
+customer_city_areado,0.0
+customer_city_arealva,0.0
+customer_city_areia branca,0.0
+customer_city_areia branca dos assis,0.0
+customer_city_arenapolis,0.0
+customer_city_arinos,0.0
+customer_city_ariquemes,0.0
+customer_city_araucaria,0.0
+customer_city_antonio prado,0.0
+customer_city_antonio prado de minas,0.0
+customer_city_aparecida,0.0
+customer_city_balneario gaivota,0.0
+customer_city_balneario pinhal,0.0
+customer_city_balsas,0.0
+customer_city_bambui,0.0
+customer_city_bananal,0.0
+customer_city_bandeirantes,0.0
+customer_city_astolfo dutra,0.0
+customer_city_barbacena,0.0
+customer_city_barra bonita,0.0
+customer_city_barra da estiva,0.0
+customer_city_barra de santa rosa,0.0
+customer_city_barra de sao joao,0.0
+customer_city_barra de sao miguel,0.0
+customer_city_barra do garcas,0.0
+customer_city_barra do pirai,0.0
+customer_city_arroio dos ratos,0.0
+customer_city_assis chateaubriand,0.0
+customer_city_barao de cocais,0.0
+customer_city_venda nova do imigrante,0.0
+customer_state_AC,0.0
+customer_state_AL,0.0
+customer_state_AM,0.0
+customer_state_AP,0.0
+customer_state_ES,0.0
+customer_state_GO,0.0
+customer_state_MA,0.0
+customer_state_MG,0.0
+customer_city_armacao dos buzios,0.0
+customer_state_PA,0.0
+customer_state_PB,0.0
+customer_state_PI,0.0
+customer_state_RO,0.0
+customer_city_votuporanga,0.0
+customer_city_wagner,0.0
+customer_city_xangri-la,0.0
+customer_city_xapuri,0.0
+customer_city_xique-xique,0.0
+customer_city_zacarias,0.0
+customer_state_MT,0.0
+customer_city_armazem,0.0
+customer_city_arraial d'ajuda,0.0
+customer_city_arraial do cabo,0.0
+customer_city_apiaca,0.0
+customer_city_apiai,0.0
+customer_city_aracaju,0.0
+customer_city_aracatuba,0.0
+customer_city_aracitaba,0.0
+customer_city_aracoiaba da serra,0.0
+customer_city_aracruz,0.0
+customer_city_viana,0.0
+customer_city_arapiraca,0.0
+customer_city_arapongas,0.0
+customer_city_araras,0.0
+customer_city_aratiba,0.0
+customer_city_veranopolis,0.0
+customer_city_vere,0.0
+customer_city_verissimo,0.0
+customer_city_vertentes,0.0
+customer_city_vespasiano,0.0
+customer_city_viamao,0.0
+customer_city_araguaina,0.0
+customer_city_brasilandia,0.0
+customer_city_brasileia,0.0
+customer_city_brasilia de minas,0.0
+customer_city_brauna,0.0
+customer_city_brazabrantes,0.0
+customer_city_brejo dos santos,0.0
+customer_city_brotas,0.0
+customer_city_boa viagem,0.0
+customer_city_boa vista,0.0
+customer_city_antonio pereira,0.0
+customer_city_bofete,0.0
+customer_city_boituva,0.0
+customer_city_bom jardim,0.0
+customer_city_bom jardim de minas,0.0
+customer_city_bom jesus,0.0
+customer_city_bom jesus da penha,0.0
+customer_city_bom jesus das selvas,0.0
+customer_city_bom jesus do itabapoana,0.0
+customer_city_bom jesus do norte,0.0
+customer_city_bom jesus do sul,0.0
+customer_city_bocaiuva,0.0
+customer_city_brusque,0.0
+customer_city_buenos aires,0.0
+customer_city_buri,0.0
+customer_city_buritama,0.0
+customer_city_cabo de santo agostinho,0.0
+customer_city_cabo frio,0.0
+customer_city_cabralia paulista,0.0
+customer_city_cabrobo,0.0
+customer_city_cacador,0.0
+customer_city_braganca paulista,0.0
+customer_city_caceres,0.0
+customer_city_cachoeira do brumado,0.0
+customer_city_cachoeira do sul,0.0
+customer_city_cachoeira paulista,0.0
+customer_city_bonito,0.0
+customer_city_bonito de minas,0.0
+customer_city_borda da mata,0.0
+customer_city_botucatu,0.0
+customer_city_botuvera,0.0
+customer_city_braganca,0.0
+customer_city_cacapava,0.0
+customer_city_barreiros,0.0
+customer_city_barretos,0.0
+customer_city_barrinha,0.0
+customer_city_barro,0.0
+customer_city_barueri,0.0
+customer_city_bastos,0.0
+customer_city_bataguassu,0.0
+customer_city_batatais,0.0
+customer_city_baturite,0.0
+customer_city_bombinhas,0.0
+customer_city_ampere,0.0
+customer_city_ananindeua,0.0
+customer_city_anapolis,0.0
+customer_city_andorinha,0.0
+customer_city_andradas,0.0
+customer_city_andradina,0.0
+customer_city_angical do piaui,0.0
+customer_city_anhandui,0.0
+customer_city_anicuns,0.0
+customer_city_antonina,0.0
+customer_city_bauru,0.0
+customer_city_bonfim paulista,0.0
+customer_city_bayeux,0.0
+customer_city_bebedouro,0.0
+customer_city_belem,0.0
+customer_city_belford roxo,0.0
+customer_city_belo horizonte,0.0
+customer_city_belo jardim,0.0
+customer_city_benedito novo,0.0
+customer_city_bento goncalves,0.0
+customer_city_bertioga,0.0
+customer_city_barreirinhas,0.0
+customer_city_bezerros,0.0
+customer_city_biguacu,0.0
+customer_city_bilac,0.0
+customer_city_birigui,0.0
+customer_city_blumenau,0.0
+customer_city_boa esperanca,0.0
+customer_city_barra do tarrachil,0.0
+customer_city_barra longa,0.0
+customer_city_barra velha,0.0
+customer_city_barreiras,0.0
+customer_city_betim,0.0
+customer_city_itapetinga,0.0
+customer_city_itapetininga,0.0
+customer_city_itapeva,0.0
+customer_city_itapevi,0.0
+customer_city_itapira,0.0
+customer_city_itapiuna,0.0
+customer_city_itapolis,0.0
+customer_city_itaberai,0.0
+customer_city_itabira,0.0
+customer_city_divinolandia,0.0
+customer_city_itabuna,0.0
+customer_city_itagimirim,0.0
+customer_city_itaguacu,0.0
+customer_city_itaguai,0.0
+customer_city_itai,0.0
+customer_city_itaipava,0.0
+customer_city_itajai,0.0
+customer_city_itajuba,0.0
+customer_city_itajuipe,0.0
+customer_city_itamarandiba,0.0
+customer_city_itabirito,0.0
+customer_city_jacutinga,0.0
+customer_city_itapora,0.0
+customer_city_itapui,0.0
+customer_city_itapura,0.0
+customer_city_itapuranga,0.0
+customer_city_itarana,0.0
+customer_city_itarantim,0.0
+customer_city_itatiaia,0.0
+customer_city_itauna,0.0
+customer_city_itaperuna,0.0
+customer_city_itiuba,0.0
+customer_city_itobi,0.0
+customer_city_itu,0.0
+customer_city_itubera,0.0
+customer_city_itamonte,0.0
+customer_city_itanhandu,0.0
+customer_city_itapaje,0.0
+customer_city_itapecerica,0.0
+customer_city_itapejara d'oeste,0.0
+customer_city_itapema,0.0
+customer_city_itinga,0.0
+customer_city_imbe de minas,0.0
+customer_city_imbituva,0.0
+customer_city_imbuia,0.0
+customer_city_imperatriz,0.0
+customer_city_indiara,0.0
+customer_city_inhapi,0.0
+customer_city_inhumas,0.0
+customer_city_ipameri,0.0
+customer_city_alta floresta,0.0
+customer_city_itambaraca,0.0
+customer_city_altaneira,0.0
+customer_city_alto alegre do iguacu,0.0
+customer_city_alto boa vista,0.0
+customer_city_alto do rodrigues,0.0
+customer_city_alto horizonte,0.0
+customer_city_alto paraiso de goias,0.0
+customer_city_alto rio doce,0.0
+customer_city_alvarenga,0.0
+customer_city_alvares florence,0.0
+customer_city_alvinopolis,0.0
+customer_city_altamira,0.0
+customer_city_itambe,0.0
+customer_city_ipanema,0.0
+customer_city_ipatinga,0.0
+customer_city_ipaussu,0.0
+customer_city_ipecaeta,0.0
+customer_city_ipero,0.0
+customer_city_ipiau,0.0
+customer_city_ipojuca,0.0
+customer_city_ipora,0.0
+customer_city_imbe,0.0
+customer_city_ipua,0.0
+customer_city_iracemapolis,0.0
+customer_city_irape,0.0
+customer_city_irapua,0.0
+customer_city_irece,0.0
+customer_city_irineopolis,0.0
+customer_city_itaberaba,0.0
+customer_city_ilha solteira,0.0
+customer_city_ilheus,0.0
+customer_city_imaculada,0.0
+customer_city_ipu,0.0
+customer_city_lagoa vermelha,0.0
+customer_city_laguna,0.0
+customer_city_lajeado,0.0
+customer_city_laranjal paulista,0.0
+customer_city_laranjeiras do sul,0.0
+customer_city_laurentino,0.0
+customer_city_lauro de freitas,0.0
+customer_city_lavras,0.0
+customer_city_lavras do sul,0.0
+customer_city_jacinto,0.0
+customer_city_juazeiro do norte,0.0
+customer_city_jucurutu,0.0
+customer_city_juina,0.0
+customer_city_juiz de fora,0.0
+customer_city_julio de castilhos,0.0
+customer_city_julio mesquita,0.0
+customer_city_jupi,0.0
+customer_city_juquia,0.0
+customer_city_juquitiba,0.0
+customer_city_juruaia,0.0
+customer_city_leme,0.0
+customer_city_macieira,0.0
+customer_city_mae do rio,0.0
+customer_city_mafra,0.0
+customer_city_lencois paulista,0.0
+customer_city_leopoldina,0.0
+customer_city_lima duarte,0.0
+customer_city_limeira,0.0
+customer_city_limoeiro,0.0
+customer_city_lindoia,0.0
+customer_city_lagoa santa,0.0
+customer_city_lins,0.0
+customer_city_loanda,0.0
+customer_city_lontras,0.0
+customer_city_louveira,0.0
+customer_city_lucas do rio verde,0.0
+customer_city_lucelia,0.0
+customer_city_lucianopolis,0.0
+customer_city_lago da pedra,0.0
+customer_city_lagoa dos gatos,0.0
+customer_city_lagoa nova,0.0
+customer_city_linhares,0.0
+customer_city_jandaia do sul,0.0
+customer_city_januaria,0.0
+customer_city_japeri,0.0
+customer_city_jaragua,0.0
+customer_city_jari,0.0
+customer_city_jarinu,0.0
+customer_city_jaru,0.0
+customer_city_jatai,0.0
+customer_city_ituiutaba,0.0
+customer_city_juruena,0.0
+customer_city_ituporanga,0.0
+customer_city_ituverava,0.0
+customer_city_ivaipora,0.0
+customer_city_ivinhema,0.0
+customer_city_ivora,0.0
+customer_city_jaboatao dos guararapes,0.0
+customer_city_jabora,0.0
+customer_city_jacare,0.0
+customer_city_jacarei,0.0
+customer_city_jacarezinho,0.0
+customer_city_itumbiara,0.0
+customer_city_juscimeira,0.0
+customer_city_juti,0.0
+customer_city_ladainha,0.0
+customer_city_jau,0.0
+customer_city_jequie,0.0
+customer_city_jequitinhonha,0.0
+customer_city_jijoca de jericoacoara,0.0
+customer_city_joacaba,0.0
+customer_city_joanopolis,0.0
+customer_city_joao lisboa,0.0
+customer_city_jales,0.0
+customer_city_joao neiva,0.0
+customer_city_joao pinheiro,0.0
+customer_city_joinville,0.0
+customer_city_jose bonifacio,0.0
+customer_city_jose de freitas,0.0
+customer_city_jaguaquara,0.0
+customer_city_jaguarao,0.0
+customer_city_jaguariaiva,0.0
+customer_city_jaguariuna,0.0
+customer_city_jaguaruana,0.0
+customer_city_joao monlevade,0.0
+customer_city_fervedouro,0.0
+customer_city_flores da cunha,0.0
+customer_city_flores de goias,0.0
+customer_city_floresta,0.0
+customer_city_florianopolis,0.0
+customer_city_formiga,0.0
+customer_city_formosa,0.0
+customer_city_espigao do oeste,0.0
+customer_city_espirito santo do pinhal,0.0
+customer_city_alvorada,0.0
+customer_city_espumoso,0.0
+customer_city_estancia,0.0
+customer_city_estancia velha,0.0
+customer_city_esteio,0.0
+customer_city_estiva gerbi,0.0
+customer_city_estrela,0.0
+customer_city_estrela d oeste,0.0
+customer_city_estrela do indaia,0.0
+customer_city_euclides da cunha,0.0
+customer_city_eunapolis,0.0
+customer_city_esplanada,0.0
+customer_city_fraiburgo,0.0
+customer_city_franca,0.0
+customer_city_francisco badaro,0.0
+customer_city_francisco beltrao,0.0
+customer_city_francisco morato,0.0
+customer_city_francisco sa,0.0
+customer_city_franco da rocha,0.0
+customer_city_frei gaspar,0.0
+customer_city_frei lagonegro,0.0
+customer_city_ferraz de vasconcelos,0.0
+customer_city_frutal,0.0
+customer_city_fundao,0.0
+customer_city_faxinal,0.0
+customer_city_faxinal dos guedes,0.0
+customer_city_fazenda rio grande,0.0
+customer_city_feira de santana,0.0
+customer_city_feira nova,0.0
+customer_city_feliz,0.0
+customer_city_fernando prestes,0.0
+customer_city_fernandopolis,0.0
+customer_city_fronteira,0.0
+customer_city_dom vicoso,0.0
+customer_city_dores de guanhaes,0.0
+customer_city_dormentes,0.0
+customer_city_dourado,0.0
+customer_city_dourados,0.0
+customer_city_duartina,0.0
+customer_city_durande,0.0
+customer_city_ecoporanga,0.0
+customer_city_eldorado do sul,0.0
+customer_city_extrema,0.0
+customer_city_curitibanos,0.0
+customer_city_currais novos,0.0
+customer_city_cururupu,0.0
+customer_city_curvelandia,0.0
+customer_city_curvelo,0.0
+customer_city_delfinopolis,0.0
+customer_city_descalvado,0.0
+customer_city_diadema,0.0
+customer_city_dianopolis,0.0
+customer_city_diorama,0.0
+customer_city_curitiba,0.0
+customer_city_farroupilha,0.0
+customer_city_fatima,0.0
+customer_city_elisiario,0.0
+customer_city_embauba,0.0
+customer_city_embu das artes,0.0
+customer_city_embu-guacu,0.0
+customer_city_encantado,0.0
+customer_city_encruzilhada do sul,0.0
+customer_city_engenheiro coelho,0.0
+customer_city_entre rios de minas,0.0
+customer_city_dom pedrito,0.0
+customer_city_erechim,0.0
+customer_city_erico cardoso,0.0
+customer_city_esmeralda,0.0
+customer_city_espera feliz,0.0
+customer_city_espigao,0.0
+customer_city_espigao alto do iguacu,0.0
+customer_city_dois corregos,0.0
+customer_city_dois irmaos,0.0
+customer_city_dois vizinhos,0.0
+customer_city_dom eliseu,0.0
+customer_city_entre-ijuis,0.0
+customer_city_gurupi,0.0
+customer_city_heliopolis,0.0
+customer_city_herval d'oeste,0.0
+customer_city_hidrolina,0.0
+customer_city_holambra,0.0
+customer_city_horizonte,0.0
+customer_city_hortolandia,0.0
+customer_city_hulha negra,0.0
+customer_city_iati,0.0
+customer_city_foz do iguacu,0.0
+customer_city_ibateguara,0.0
+customer_city_ibia,0.0
+customer_city_ibicarai,0.0
+customer_city_guamiranga,0.0
+customer_city_guanambi,0.0
+customer_city_guapimirim,0.0
+customer_city_guapore,0.0
+customer_city_guaracai,0.0
+customer_city_guaramirim,0.0
+customer_city_guaranesia,0.0
+customer_city_ibaiti,0.0
+customer_city_amargosa,0.0
+customer_city_americana,0.0
+customer_city_amparo,0.0
+customer_city_ibiracu,0.0
+customer_city_ibirite,0.0
+customer_city_ibitinga,0.0
+customer_city_ibiuna,0.0
+customer_city_ibotirama,0.0
+customer_city_icara,0.0
+customer_city_guimarania,0.0
+customer_city_icem,0.0
+customer_city_iconha,0.0
+customer_city_ielmo marinho,0.0
+customer_city_igarata,0.0
+customer_city_igrejinha,0.0
+customer_city_iguaba grande,0.0
+customer_city_iguatu,0.0
+customer_city_ijui,0.0
+customer_city_guarulhos,0.0
+customer_city_guaxupe,0.0
+customer_city_icarai de minas,0.0
+customer_city_guaira,0.0
+customer_city_gabriel monteiro,0.0
+customer_city_galinhos,0.0
+customer_city_gameleiras,0.0
+customer_city_garanhuns,0.0
+customer_city_garca,0.0
+customer_city_garibaldi,0.0
+customer_city_garopaba,0.0
+customer_city_garrafao do norte,0.0
+customer_city_guarani,0.0
+customer_city_gastao vidigal,0.0
+customer_city_general salgado,0.0
+customer_city_getulina,0.0
+customer_city_getulio vargas,0.0
+customer_city_girua,0.0
+customer_city_goianesia,0.0
+customer_city_goiania,0.0
+customer_city_formoso,0.0
+customer_city_forquilhinha,0.0
+customer_city_fortaleza,0.0
+customer_city_gaspar,0.0
+customer_city_guarapari,0.0
+customer_city_guarapua,0.0
+customer_city_guarapuava,0.0
+customer_city_guaraquecaba,0.0
+customer_city_guararapes,0.0
+customer_city_guararema,0.0
+customer_city_guaratingueta,0.0
+customer_city_guaruja,0.0
+customer_city_goianorte,0.0
+customer_city_goiatuba,0.0
+customer_city_guaiba,0.0
+customer_city_goitacazes,0.0
+customer_city_goncalves dias,0.0
+customer_city_governador celso ramos,0.0
+customer_city_governador eugenio barros,0.0
+customer_city_governador valadares,0.0
+customer_city_grajau,0.0
+customer_city_gramado,0.0
+customer_city_granja,0.0
+customer_city_guabiruba,0.0
+customer_city_guacui,0.0
+customer_city_goioere,0.0

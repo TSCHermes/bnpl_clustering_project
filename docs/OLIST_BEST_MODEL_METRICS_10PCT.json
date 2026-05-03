@@ -1,0 +1,12 @@
+{
+  "model": "Gradient Boosting",
+  "feature_set": "C (RFM + behavioral + geographic)",
+  "auc_roc": 0.6960874271869686,
+  "auc_pr": 0.6847389229633152,
+  "sample_size": 9853,
+  "sample_frac": 0.1,
+  "n_features": 1456,
+  "n_numeric": 10,
+  "n_categorical": 2,
+  "n_cat_after_onehot": 1446
+}
