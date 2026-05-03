@@ -150,6 +150,21 @@ We also explored predicting BNPL adoption (target: any order with ≥2 installme
 ### Conclusion
 If the Olist clustering insight (“customers split by purchasing behavior”) is the primary goal, geographic data adds little value and can hurt interpretability. For BNPL prediction outside Brazil, **omit geographic features** and rely on RFM + behavioral signals. The resulting model is lighter, easier to maintain, and still achieves AUC‑PR > 0.66.
 
----
+### Hyperparameter tuning for Feature Set B (no geographic features)
 
-*Analysis completed on 2026-05-03*
+We also performed hyperparameter tuning (RandomizedSearchCV, n_iter=10, scoring=AUC-PR) on the three models using Feature Set B (RFM + behavioral). Results (5 % sample):
+
+| Model | Default AUC‑PR | Best CV AUC‑PR | Test AUC‑PR | Improvement |
+|-------|---------------|----------------|-------------|-------------|
+| Gradient Boosting | 0.6409 | 0.6438 | 0.6361 | -0.0047 |
+| Random Forest | 0.6329 | 0.6678 | 0.6620 | +0.0291 |
+| Logistic Regression | 0.6707 | 0.6684 | 0.6713 | +0.0006 |
+
+*Best hyperparameters (from the CSV):*  
+- **Gradient Boosting**: learning_rate=0.06, n_estimators=300, max_depth=6, subsample=0.8, max_features=0.9  
+- **Random Forest**: n_estimators=400, max_depth=15, min_samples_split=0.05, min_samples_leaf=0.05, max_features=1.0  
+- **Logistic Regression**: C=2.5, penalty=l2, solver=liblinear  
+
+Interpretation: Random Forest benefits most from tuning (+0.029 AUC‑PR), while Gradient Boosting and Logistic Regression are already near optimal with default parameters. The tuned Random Forest achieves test AUC‑PR 0.662, close to the best Gradient Boosting (0.663) from the earlier non‑tuned run.
+
+---\n\n*Analysis completed on 2026-05-03*
