@@ -1,18 +1,44 @@
-# Olist E-commerce Customer Clustering Analysis
+# Olist E-commerce Analysis
 
-This project performs customer segmentation on the Olist Brazilian e-commerce dataset using RFM (Recency, Frequency, Monetary) and additional behavioral and geographic features.
+## Business Summary (for non-technical audience)
 
-## Project Structure
+### Goal
+- Segment customers to understand purchasing behavior.
+- Predict which customers are likely to use Buy‑Now‑Pay‑Later (BNPL) (installments ≥ 2).
 
+### Key Findings
+1. **Customer segmentation** (clustering) shows two main groups split by **purchasing behavior**, not geography:
+   - **High‑value shoppers** (≈21 %): larger purchase amounts.
+   - **Frequent low‑value shoppers** (≈79 %): smaller purchase amounts.
+   - Both groups have similar credit‑risk profiles (repayment timing).
+2. **BNPL prediction** (classification) using customer‑level features:
+   - **Behavioral features** (average monetary, frequency, etc.) improve prediction over basic RFM.
+   - **Geographic features** (Brazilian states/cities) help tree‑based models slightly but hurt linear models and add complexity.
+   - For a deployment **outside Brazil**, omitting geography still yields strong performance:
+     - Gradient Boosting: AUC‑PR ≈ 0.66
+     - Tuned Random Forest: AUC‑PR ≈ 0.66
+   - Simpler model (no geography) is easier to maintain and interpret.
+
+### Recommended Action
+- **Segmentation**: Focus on **monetary value** and **purchase frequency** to identify high‑value vs. frequent shoppers.
+- **BNPL targeting**: Use **RFM + behavioral** features (recency, frequency, monetary, avg monetary, avg items, avg freight, avg review, % orders with review, unique product categories, unique sellers).
+- **Model**: Gradient Boosting or a tuned Random Forest (see Technical Details for hyperparameters).
+- **No need for Brazilian‑specific geography** when applying insights to other markets.
+
+---
+
+## Technical Details (for data science team)
+
+### Project Structure
 - `data/raw/` - Original Olist dataset files (CSV)
 - `data/processed/` - Processed data and clustering results (CSV)
 - `docs/` - Documentation and reports (Markdown)
 - `results/visuals/` - Visualizations (PNG)
 - `scripts/` - Python scripts for data processing and clustering
 
-## Analyses Performed
+### Analyses Performed
 
-### 1. 0.5% Sample Analysis (Initial)
+#### 1. 0.5% Sample Analysis (Initial)
 - **Script**: `scripts/olist_clustering_final.py`
 - **Output**: 
   - `data/processed/olist_customer_clusters_sampled_0pct.csv`
@@ -23,7 +49,7 @@ This project performs customer segmentation on the Olist Brazilian e-commerce da
   - Cluster 2 (17%) = exclusively São Paulo state customers
   - Cluster 1 (83%) = geographically diverse customers
 
-### 2. 5% Sample Analysis (Larger Dataset)
+#### 2. 5% Sample Analysis (Larger Dataset)
 - **Script**: `scripts/olist_clustering_5pct.py`
 - **Output**:
   - `data/processed/olist_customer_clusters_sampled_5pct.csv`
@@ -33,41 +59,41 @@ This project performs customer segmentation on the Olist Brazilian e-commerce da
   - Best k=2 (silhouette = 0.3552)
   - Two distinct clusters separated by purchasing behavior
 
-## Visualizations
+### Visualizations
 
 Below are the visualizations of the customer clusters, each described in both technical and business-friendly terms:
 
-### 1. Recency vs Monetary
+#### 1. Recency vs Monetary
 ![Customer Clusters: Recency vs Monetary](../results/visuals/olist_cluster_scatter_recency_monetary.png)
 **Recency (How recently a customer last purchased)** vs **Monetary (Total amount spent)**
 - Shows how customer groups differ in their purchase timing and spending habits.
 - Business insight: Identifies segments like "recent big spenders" (valuable) vs "old small spenders" (at risk).
 
-### 2. Frequency vs Monetary
+#### 2. Frequency vs Monetary
 ![Customer Clusters: Frequency vs Monetary](../results/visuals/olist_cluster_scatter_frequency_monetary.png)
 **Frequency (Number of orders placed)** vs **Monetary (Total amount spent)**
 - Reveals whether customers buy often in small amounts or rarely in large amounts.
 - Business insight: Helps distinguish loyal frequent buyers from occasional high-value customers.
 
-### 3. Recency vs Frequency
+#### 3. Recency vs Frequency
 ![Customer Clusters: Recency vs Frequency](../results/visuals/olist_cluster_scatter_recency_frequency.png)
 **Recency (How recently a customer last purchased)** vs **Frequency (Number of orders placed)**
 - Combines timing and loyalty dimensions to show engagement patterns.
 - Business insight: Highlights customers who buy frequently but haven't purchased recently (potential churn risk).
 
-### 4. Cluster Sizes
+#### 4. Cluster Sizes
 ![Cluster Sizes](../results/visuals/olist_cluster_sizes.png)
 **Cluster Size (Number of customers in each segment)**
 - Simple count of how many customers fall into each discovered segment.
 - Business insight: Shows the relative importance of each segment for resource allocation.
 
-### 5. Monetary Distribution by Cluster
+#### 5. Monetary Distribution by Cluster
 ![Monetary Distribution by Cluster](../results/visuals/olist_cluster_monetary_boxplot.png)
 **Monetary Spread (Range of total spending within each segment)**
 - Displays the distribution, median, and outliers of spending for each customer group.
 - Business insight: Reveals spending consistency within segments and identifies exceptional customers (outliers).
 
-## Key Findings (0.5% Sample)
+### Key Findings (0.5% Sample)
 
 - **Best number of clusters (k)**: 3 distinct customer segments identified
 - **Silhouette Score**: -0.1201 (indicates modest separation; natural overlap expected in real-world behavior)
@@ -76,7 +102,7 @@ Below are the visualizations of the customer clusters, each described in both te
   - **Cluster 1**: 411 customers (83.2%) - Geographically diverse mainstream customers (mostly from SP/MG states)
   - **Cluster 2**: 82 customers (16.6%) - Exclusively from São Paulo state (potential regional loyalty pattern)
 
-## Environment Setup
+### Environment Setup
 
 The project uses a uv virtual environment. Dependencies are installed via:
 ```bash
@@ -84,7 +110,7 @@ uv venv .venv --seed
 uv pip install numpy scikit-learn pandas matplotlib seaborn
 ```
 
-## Running the Analysis
+### Running the Analysis
 
 To run the clustering analysis on a sample:
 ```bash
@@ -93,7 +119,7 @@ python scripts/olist_clustering_final.py   # 0.5% sample
 python scripts/olist_clustering_5pct.py  # 5% sample
 ```
 
-## Next Steps
+### Next Steps
 
 For production analysis, consider:
 1. Increasing sample size to 10-20% or full dataset
@@ -167,4 +193,5 @@ We also performed hyperparameter tuning (RandomizedSearchCV, n_iter=10, scoring=
 
 Interpretation: Random Forest benefits most from tuning (+0.029 AUC‑PR), while Gradient Boosting and Logistic Regression are already near optimal with default parameters. The tuned Random Forest achieves test AUC‑PR 0.662, close to the best Gradient Boosting (0.663) from the earlier non‑tuned run.
 
----\n\n*Analysis completed on 2026-05-03*
+---
+*Analysis completed on 2026-05-03*
